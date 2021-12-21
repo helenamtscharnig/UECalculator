@@ -6,9 +6,9 @@ public class Calculator {
         char gender = 'f';
         String name = "Lisa";
 
-        System.out.println("The persons name is "+name+" and she is "+age+" years old.");
-        System.out.println("The persons gender is "+gender+" and the weight is "+weight+" kg.");
-        System.out.println("Is the person an adult? "+adult);
+        System.out.println("The persons name is " +name+ " and she is " +age+ " years old.");
+        System.out.println("The persons gender is " +gender+ " and the weight is " +weight+ " kg.");
+        System.out.println("Is the person an adult? " +adult);
 
     }
 }
