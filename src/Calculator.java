@@ -11,4 +11,6 @@ public class Calculator {
         System.out.println("Is the person an adult? " +adult);
 
     }
+
+
 }
