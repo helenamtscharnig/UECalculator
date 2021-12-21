@@ -43,7 +43,9 @@ public class Calculator {
     }
 
     public static int div(int a, int b){
-        return a/b;
+        if(b != 0){
+        return a/b;}
+        else{return 0;}
     }
 
     public static int mod(int a, int b){
