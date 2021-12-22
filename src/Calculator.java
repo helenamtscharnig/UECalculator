@@ -56,4 +56,18 @@ public class Calculator {
         System.out.println("The result is: "+result);
     }
 
+    public static int sum(){
+        int sum;
+        int[] arr3 = new int[5];
+        arr3[0] = 1;
+        arr3[1] = 2;
+        arr3[2] = 3;
+        arr3[3] = 4;
+        arr3[4] = 5;
+
+        sum = arr3[1]+arr3[0]+arr3[2]+arr3[3]+arr3[4];
+        return sum;
+    }
+
+
 }
